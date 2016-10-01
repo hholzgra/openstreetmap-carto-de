@@ -1,5 +1,5 @@
-DROP VIEW IF EXISTS planet_osm_roads;
-CREATE VIEW planet_osm_roads AS
+DROP VIEW IF EXISTS view_osm_roads;
+CREATE VIEW view_osm_roads AS
 SELECT
 osm_id,
 tags->'admin_level' as "admin_level",
@@ -38,6 +38,6 @@ osml10n_get_name_without_brackets_from_tags(tags,'de',way) as localized_name_wit
 osml10n_get_streetname_from_tags(tags,true, 'de', way) as localized_streetname_inside_brackets,
 osml10n_get_streetname_from_tags(tags,false, 'de', way) as localized_streetname_outside_brackets,
 tags->'tags' as "tags"
-FROM planet_osm_hstore_roads;
+FROM planet_osm_roads;
 
-GRANT select ON planet_osm_roads TO public;
+GRANT select ON view_osm_roads TO public;
