@@ -2,7 +2,7 @@
 
 ## Why have a Code of Conduct?
 
-Online communities include people from many different backgrounds. The OpenStreetMap Carto contributors are committed to providing a friendly, safe and welcoming environment for all, regardless of age, disability, gender, nationality, race, religion, sexuality, or similar personal characteristic.
+Online communities include people from many different backgrounds. The OpenStreetMap Carto contributors are committed to providing a friendly, safe and welcoming environment for all, regardless of age, disability, gender, nationality, ethnicity, religion, sexuality, or similar personal characteristic.
 
 The first goal of the Code of Conduct is to specify a baseline standard of behavior so that people with different social values and communication styles can talk about OpenStreetMap Carto effectively, productively, and respectfully.
 
@@ -47,7 +47,7 @@ People are complicated. You should expect to be misunderstood and to misundersta
 These actions are explicitly forbidden in OpenStreetMap Carto spaces:
 
 - Insulting, demeaning, hateful, or threatening remarks.
-- Discrimination based on age, disability, gender, nationality, race, religion, sexuality, or similar personal characteristic.
+- Discrimination based on age, disability, gender, nationality, ethnicity, religion, sexuality, or similar personal characteristic.
 - Bullying or systematic harassment.
 - Unwelcome sexual advances.
 - Incitement to any of these.
@@ -62,7 +62,7 @@ When using the OpenStreetMap Carto spaces you should act in the spirit of the va
 
 The OpenStreetMap Carto maintainers are responsible for handling conduct-related issues. Their goal is to de-escalate conflicts and try to resolve issues to the satisfaction of all parties.
 
-If you encounter a conduct-related issue, you should report it to the maintainers by sending them [all an email](mailto:openstreetmap-carto@gravitystorm.co.uk,penorman@mac.com,info@matthijsmelissen.nl,matkoniecz@gmail.com).
+If you encounter a conduct-related issue, you should report it to the maintainers by sending them [all an email](mailto:openstreetmap-carto@gravitystorm.co.uk,penorman@mac.com,info@matthijsmelissen.nl,matkoniecz@gmail.com,chris_hormann@gmx.de,daniel@xn--ko-wla.pl,nebulon42@mailbox.org).
 
 **Note that the goal of the Code of Conduct and the maintainers is to resolve conflicts in the most harmonious way possible.** We hope that in most cases issues may be resolved through polite discussion and mutual agreement. Bans and other forceful measures are to be employed only as a last resort.
 

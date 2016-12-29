@@ -1,11 +1,47 @@
-## [Unreleased](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.44.1...master)
+## Note: This is the upstream changelog not the one from openstreetmap-carto-de
+openstreetmap-carto-de does not maintain a changelog. Instead have a log at the
+git history. openstreetmap-carto-de commit messages are usually prefixed by "GERMAN STYLE:"
 
-## [v2.44.1](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.44.1...v2.44.0) - 2016-10-12
+## [Unreleased](https://github.com/gravitystorm/openstreetmap-carto/compare/v3.0.0...master)
+
+## [v3.0.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v3.0.0...v3.0.1) - 2016-12-22
+### Changes
+- Revert of junction area changes which were preventing index usage
+
+## [v3.0.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.45.1...v3.0.0) - 2016-12-21
+### Major Changes
+- Mapnik 3 is now required
+- CartoCSS 0.16.x is now required
+- Official Tilemill support is dropped
+- Shapefiles are downloaded with a new python script
+
+### Changes
+- Noto Naskh is now used for Arabic
+- Visual impact of campsites and quarries reduced below z13
+- Wilderness huts rendered
+- Subway entrances rendered
+
+## [v2.45.1](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.45.0...v2.45.1) - 2016-12-03
+### Changes
+- Bug fix for tobacco shop and memorial icons
+
+## [v2.45.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.44.1...v2.45.0) - 2016-11-28
+### Changes
+- Render all shops without a specific icon as a dot, not just a whitelist
+- Scrub pattern change to random
+- Change pitch and track color
+- Railway stations rendering as major buildings
+- Rendering the name of man_made=bridge inside the polygon
+- Documentation updates (including cartography design goals and icon design guidelines)
+- Icons general code cleaning
+- Various bug fixes
+
+## [v2.44.1](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.44.0...v2.44.1) - 2016-10-12
 ### Changes
 - Bug fixes to low zoom place rendering changes
 - Documentation improvements for fonts and non-latin rendering
 
-## [v2.44.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.44.0...v2.43.0) - 2016-09-26
+## [v2.44.0](https://github.com/gravitystorm/openstreetmap-carto/compare/v2.43.0...v2.44.0) - 2016-09-26
 ### Major Changes
 - Rendering of restricted access roads and paths significantly changed
 - Changed to use Noto fonts for all languages
