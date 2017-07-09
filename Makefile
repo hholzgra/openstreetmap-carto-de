@@ -3,7 +3,8 @@ MAPNIK_API = $(shell mapnik-config -v)
 TEMPFILE := $(shell mktemp -u)
 
 osm-de.xml: *.mss project.mml
-	carto -a $(MAPNIK_API) project.mml > $(TEMPFILE)
+	sed '/\sname:/d' < project.mml > osm.mml
+	carto -a $(MAPNIK_API) osm.mml > $(TEMPFILE)
 	sed -e's/\[CDATA\[osm\]]/[CDATA[gis]]/g' -e's/planet_osm_/view_osm_/g' < $(TEMPFILE) > $@
 
 preview-de.png: osm-de.xml
